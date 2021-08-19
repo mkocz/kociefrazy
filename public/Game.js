@@ -1,9 +1,3 @@
-// import { Phrase } from './Phrase.js';
-// import { Presentation } from './Presentation.js';
-// import { Statistics } from './Statistics.js';
-// import { Clock } from './Clock.js';
-
-
 class Game {
     constructor() {
         this.letters = document.querySelectorAll(".alphabetContainer button");

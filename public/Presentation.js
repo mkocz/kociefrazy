@@ -1,5 +1,3 @@
-//import { Animation, animations } from './Animation.js';
-
 class Presentation {
     constructor() {
         this.headerText = "Podaj frazy z kociej bazy";
