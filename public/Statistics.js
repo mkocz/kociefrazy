@@ -31,7 +31,6 @@ class Statistics {
         if (this.tableCreated === false) {
             this.createTable();
         }
-        //   const resultIcon = result ? '<i class="icon-ok"></i>' : '<i class="icon-cancel"></i>';
         const resultIcon = result ? '<i class="fas fa-check"></i>' : '<i class="icon-cancel"></i>';
         let row = document.createElement('tr');
         row.innerHTML = `<td>${phrase}</td><td>${time}</td><td>${lifes}</td><td>${resultIcon}</td>`;
