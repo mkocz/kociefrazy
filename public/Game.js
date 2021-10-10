@@ -20,7 +20,6 @@ class Game {
     }
 
     checkLetter(ev) {
-        console.log("pppp");
         if (ev.target.classList.contains("active")) {
             let phrase = this.phrase.toUpperCase();
             ev.target.style.cursor = "default";
