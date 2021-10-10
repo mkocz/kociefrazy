@@ -232,11 +232,6 @@ div .alive {
   color: white;
 }
 
-/* .next:focus,
-.stats {
-    outline: none;
-} */
-
 .timer {
   box-sizing: border-box;
   position: absolute;
